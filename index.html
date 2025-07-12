@@ -5,21 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Сучасна пекарня</title>
 </head>
+
+<header>
+    <nav>
+        <a href="./index.html">
+            <img src="./images/logo.svg" alt="Shop Bakery">
+        </a>
+        <ul>
+            <li><a href="#traditions-section">Наші традиції</a></li>
+            <li><a href="#chefs-section">Шеф-кухарі</a></li>
+            <li><a href="#formats-section">Формати</a></li>
+            <li><a href="#contact-section">Контакти</a></li>
+        </ul>
+    </nav>
+    <button type="button">Замовити дзвінок</button>
+</header>
+
 <body>
-    <header>
-        <nav>
-            <a href="./index.html">
-                <img src="./images/logo.svg" alt="Shop Bakery">
-            </a>
-            <ul>
-                <li><a href="#traditions-section">Наші традиції</a></li>
-                <li><a href="#chefs-section">Шеф-кухарі</a></li>
-                <li><a href="#formats-section">Формати</a></li>
-                <li><a href="#contact-section">Контакти</a></li>
-            </ul>
-        </nav>
-        <button type="button">Замовити дзвінок</button>
-    </header>
     <main>
         <section>
             <h1>Cучасна пекарня</h1>
@@ -91,31 +93,32 @@
             </iframe>
         </section>
     </main>
-    <footer>
-        <nav>
-            <a href="#">
-                <img src="./images/logo.svg" alt="Shop Bakery">
-            </a>
-            <ul>
-                <li><a href="#">Наші традиції</a></li>
-                <li><a href="#">Шеф-кухарі</a></li>
-                <li><a href="#">Формати</a></li>
-                <li><a href="#">Контакти</a></li>
-            </ul>
-        </nav>
-        <address>
-            <ul>
-                <li><a href="tel:+380960000007">+ 38 (096) 000 00 07</a></li>
-                <li><a href="mailto:shopbakery@gmail.com">shopbakery@gmail.com</a></li>
-                <li><a href="https://maps.app.goo.gl/cNintKdye3Tv9i9p8" target="_blank">Україна, м. Київ, вул. Січових Стрільців 54</a></li>
-                <li><a href="#"><!--facebook --></a></li>
-                <li><a href="#"><!--instagram --></a></li>
-            </ul>
-            <a href="#" target="_blank">Політика конфіденційності</a>
-            <p>&copy; <span id="year"></span> Дані захищені</p>
-        </address>
-    </footer>
 </body>
+
+<footer>
+    <nav>
+        <a href="#">
+            <img src="./images/logo.svg" alt="Shop Bakery">
+        </a>
+        <ul>
+            <li><a href="#">Наші традиції</a></li>
+            <li><a href="#">Шеф-кухарі</a></li>
+            <li><a href="#">Формати</a></li>
+            <li><a href="#">Контакти</a></li>
+        </ul>
+    </nav>
+    <address>
+        <ul>
+            <li><a href="tel:+380960000007">+ 38 (096) 000 00 07</a></li>
+            <li><a href="mailto:shopbakery@gmail.com">shopbakery@gmail.com</a></li>
+            <li><a href="https://maps.app.goo.gl/cNintKdye3Tv9i9p8" target="_blank">Україна, м. Київ, вул. Січових Стрільців 54</a></li>
+            <li><a href="#"><!--facebook --></a></li>
+            <li><a href="#"><!--instagram --></a></li>
+        </ul>
+        <a href="#" target="_blank">Політика конфіденційності</a>
+        <p>&copy; <span id="year"></span> Дані захищені</p>
+    </address>
+</footer>
 
 <script>
     document.getElementById("year").textContent = new Date().getFullYear();
